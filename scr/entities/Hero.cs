@@ -1,6 +1,6 @@
 namespace GFT_RPG.scr.entities
 {
-    public abstract class Hero
+    public class Hero
     {
         protected int attack;
         protected int defense;
@@ -11,6 +11,8 @@ namespace GFT_RPG.scr.entities
             this.defense = defense;
             this.life = life;
         }
+
+        public Hero() { }
 
         public virtual int Attack()
         {
